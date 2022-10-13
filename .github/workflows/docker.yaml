@@ -22,4 +22,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.PUBLIC_DOCKER_HUB_USERNAME }}/nopCommerce:latest
+          tags: ${{ secrets.PUBLIC_DOCKER_HUB_USERNAME }}/nop-commerce:latest
